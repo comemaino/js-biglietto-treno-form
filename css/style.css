@@ -1,0 +1,29 @@
+body {
+	background-color: #c46;
+}
+
+._container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container {
+	background-color: #fff;
+}
+
+.col {
+	border: 1px solid black;
+}
+
+h2,
+h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+h2 {
+	color: #fff;
+}
+
+h3 {
+	font-size: 1.2rem;
+}

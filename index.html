@@ -16,6 +16,78 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
+		<div class="_container mt-4">
+			<h2 class="text-center">calcola il prezzo del tuo biglietto</h2>
+			<div class="container mt-4 p-2">
+				<div class="row row-cols-3 justify-content-center m-2">
+					<div class="col">
+						<div class="form-item text-center">
+							<label class="d-block" for="user-name">Nome Cognome</label>
+							<input type="text" name="user-name" id="user-name" />
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-item text-center">
+							<label class="d-block" for="kms">Chilometri da percorrere</label>
+							<input type="text" name="kms" id="kms" />
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-item text-center">
+							<label class="d-block" for="age-select">Fascia d'età</label>
+							<select name="age-select" id="age-select">
+								<option value=""></option>
+								<option value="Minorenne">Minorenne</option>
+								<option value="Maggiorenne">Maggiorenne</option>
+								<option value="Over 65">Over 65</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="btns-container text-center">
+					<button id="form-btn">Genera</button>
+					<button id="form-btn">Annulla</button>
+				</div>
+			</div>
+			<h2 class="text-center">il tuo biglietto</h2>
+			<div class="container mt-2 p2">
+				<div class="row m-2">
+					<div class="col col-4">
+						<h3>dettagli passeggero</h3>
+						<div class="user-details">
+							<h3>nome passeggero</h3>
+							<h4 class="user-name"></h4>
+						</div>
+					</div>
+					<div class="col">
+						<div class="container align-bottom">
+							<div class="row row-cols-4">
+								<div class="col offer">
+									<h6>Offerta</h6>
+									<p class="offer-details"></p>
+								</div>
+
+								<div class="col carriage">
+									<h6>Carriage</h6>
+									<p class="carriage-details-details"></p>
+								</div>
+
+								<div class="col cp-code">
+									<h6>Codice CP</h6>
+									<p class="cp-code-details-details"></p>
+								</div>
+
+								<div class="col ticket-price">
+									<h6>Costo biglietto</h6>
+									<p class="ticket-price-details-details"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- SCRIPT -->
 		<script src="js/script.js"></script>
 	</body>
